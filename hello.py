@@ -1,8 +1,8 @@
-n = int(input("Enter the no. :"))
-if n <= 1 or n >= 20 :
-    print ("Invalid input ")
-else:
-      for i in range(n):
-       print(i*i)
-
-# minus in array is used for the start from the last index 
+n = int(input())
+j = None
+if n < 1 or n > 150 :
+        print("Invalid")
+else :
+        for i in range(n):
+            j += str(i)
+print(j)

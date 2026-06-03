@@ -4,3 +4,5 @@ print(name.lower())
 print(name.find('A'))
 print(name.replace("Rashid Anwar", "Iron man"))
 print('z' in name)
+str = "Apna college is good"
+print(str.endswith("good"))
