@@ -42,3 +42,14 @@ for student in School:
         continue
     else:
         print(student)
+
+names = ["Rashid" , "Anwar" , "Akmal" , "Aqdas"]
+
+nu = [1,2,5,3,6,1,2,22,4,23,54,26,34,23,12]
+print(len(nu))
+nu1 = sorted(nu)
+print(nu1)
+print(nu.sort(reverse=True))# This is for reverse but it does not print anything
+print(nu)
+nu.sort() # This sort for accending order 
+print(nu)
