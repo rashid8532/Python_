@@ -32,11 +32,12 @@
 arr = [88, 29, 90, 94, 64]
 largest = arr[0]
 second_largest = arr[0]
-for i in range(len(arr)) :
+for i in arr :
     if arr[i] > largest :
         second_largest = largest
         largest = arr[i]
-        
+    elif i > second_largest :
+        second_largest = i
             
 print(largest, "Is the largest in array")
 print(second_largest, "Is the largest in array")
