@@ -141,3 +141,5 @@ for i in name.split("") :
 # for i in name2 :
 #     ans.append(i.capitalize())
 # print(" ".join(ans))
+
+
