@@ -33,3 +33,9 @@ student.update({"city" : "lucknow"})
 print(student)
 student.popitem()## removes last item 
 print(student)
+## student.clear() ## clear hole dictionary
+new_student = student.copy()## copy hole dictionary into the new
+print(new_student)
+
+student.setdefault('age',21)##Returns the value if key exists; otherwise inserts the key with a default value.
+print(student)
