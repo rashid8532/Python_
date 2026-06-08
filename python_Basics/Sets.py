@@ -15,8 +15,25 @@ empty.add((1,2,3,4))
 
 ## Union and intersection in sets of python 
 set1 = {1,2,3}
-set2 = {3,4,5}
+set2 = {3,4,5,2}
 
-print(set1.union(set2))
-print(set1.intersection(set2))
+# print(set1.union(set2))
+# print(set1.intersection(set2))
 # they both gives the new set does not change the old one
+empty.update([5,9,0,7,98])
+# print(empty)
+
+# print(empty.discard(10))## remove elment safely
+
+# print(empty.pop())
+# print(set1.difference(set2))
+a = {1,2,3,4,5}
+b = {6,8,9,10}
+c = a.copy()
+c.add(9)
+print(a)
+print(c)
+print(a.symmetric_difference(b))
+print(c.issubset(a))
+
+print(a.isdisjoint(b))
