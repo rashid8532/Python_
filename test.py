@@ -30,3 +30,4 @@ for i in range(N):
         s.discard(int(y[1]))
 
 print(sum(s))  
+s.un
