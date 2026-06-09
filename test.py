@@ -7,3 +7,4 @@ for i in range(len(string)):
 print(count)
 for i in range(2,10,2):
     print(i)
+
