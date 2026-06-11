@@ -1,0 +1,15 @@
+from collections import namedtuple
+student1 = namedtuple("Students",["Name","Marks","ID"])
+s1 = student1("Rashid",90,101)
+print(s1)
+print(s1.Name)
+print(s1.Marks)
+print(s1.ID)
+
+Student = namedtuple("Student",["Name ID"])
+s2 = Student("rashid",89,101)
+print(s2.name)
+# print(Student._fields)
+# print(s1._asdict())
+# print(s1._replace(Marks = 95))
+# print()
