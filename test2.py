@@ -1,8 +1,8 @@
-def sum1(m):
-    if m == 0:
-        return 0
+lis = [1,22,34,23,552,112,453,904]
+def listfunction(lis,index):
+    if index == len(lis):
+        return
+    print(lis[index])
+    return listfunction(lis,index +1)
 
-    return sum1(m - 1) + m
-
-sum2 = sum1(10)
-print(sum2)
+listfunction(lis,0)
