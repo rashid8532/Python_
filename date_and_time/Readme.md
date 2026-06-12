@@ -323,3 +323,233 @@ After you solve these, we'll move to **advanced math module topics**:
 * precision and floating-point issues
 
 These are the functions most useful in competitive programming and HackerRank.
+
+
+Excellent! ✅
+
+Your code is completely correct.
+
+```python
+import math
+
+print(math.sqrt(144))
+print(math.pow(5,4))
+print(math.factorial(6))
+print(math.gcd(24,36))
+print(math.ceil(7.2))
+print(math.floor(7.9))
+print(math.pi)
+print(math.log(32,2))
+```
+
+### Output
+
+```python
+12.0
+625.0
+720
+12
+8
+7
+3.141592653589793
+5.0
+```
+
+---
+
+## Small Observation
+
+Notice:
+
+```python
+print(math.pow(5,4))
+```
+
+Output:
+
+```python
+625.0
+```
+
+It returns a **float**.
+
+But:
+
+```python
+print(5 ** 4)
+```
+
+Output:
+
+```python
+625
+```
+
+returns an **integer**.
+
+In competitive programming, most programmers prefer:
+
+```python
+5 ** 4
+```
+
+because it's shorter and often faster.
+
+---
+
+# Next Level: Advanced Math Functions
+
+## 1. LCM (Least Common Multiple)
+
+```python
+import math
+
+print(math.lcm(12, 18))
+```
+
+Output:
+
+```python
+36
+```
+
+---
+
+## 2. Combination (nCr)
+
+How many ways to choose r objects from n objects?
+
+```python
+import math
+
+print(math.comb(5, 2))
+```
+
+Output:
+
+```python
+10
+```
+
+Because:
+
+```text
+5C2 = 10
+```
+
+---
+
+## 3. Permutation (nPr)
+
+Order matters.
+
+```python
+import math
+
+print(math.perm(5, 2))
+```
+
+Output:
+
+```python
+20
+```
+
+Because:
+
+```text
+5P2 = 20
+```
+
+---
+
+## 4. Integer Square Root
+
+```python
+import math
+
+print(math.isqrt(20))
+```
+
+Output:
+
+```python
+4
+```
+
+Because:
+
+```text
+√20 = 4.472...
+```
+
+Integer part = 4
+
+---
+
+## 5. Product of Numbers
+
+```python
+import math
+
+nums = [2, 3, 4]
+
+print(math.prod(nums))
+```
+
+Output:
+
+```python
+24
+```
+
+---
+
+## 6. Degrees and Radians
+
+Convert degrees to radians:
+
+```python
+import math
+
+print(math.radians(180))
+```
+
+Output:
+
+```python
+3.141592653589793
+```
+
+Convert radians to degrees:
+
+```python
+import math
+
+print(math.degrees(math.pi))
+```
+
+Output:
+
+```python
+180.0
+```
+
+---
+
+### Your Turn
+
+Run this code and tell me the outputs:
+
+```python
+import math
+
+print(math.lcm(15, 20))
+print(math.comb(6, 3))
+print(math.perm(6, 3))
+print(math.isqrt(50))
+print(math.prod([1, 2, 3, 4]))
+print(math.degrees(math.pi/2))
+```
+
+Once you get them right, I'll teach you the **most important math topic for DSA and HackerRank: logarithms and exponents in depth**, which are used in time complexity analysis (`O(log n)`).
