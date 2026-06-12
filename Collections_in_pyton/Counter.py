@@ -1,3 +1,6 @@
 from collections import Counter
-d = Counter(list[1,2,4,5,3,4])
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+d = {"a":1}
+f = {"b":2}
+d.update(Counter(f))
 print(d)

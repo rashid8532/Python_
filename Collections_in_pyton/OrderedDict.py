@@ -23,4 +23,3 @@ for i in range(N):
     price = parts[-1]
     d[item] = price
 print(d)
-    
