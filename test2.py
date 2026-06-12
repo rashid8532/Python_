@@ -1,8 +1,6 @@
-lis = [1,22,34,23,552,112,453,904]
-def listfunction(lis,index):
-    if index == len(lis):
-        return
-    print(lis[index])
-    return listfunction(lis,index +1)
-
-listfunction(lis,0)
+import datetime
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+month,day,year = map(int,input().split())
+a = datetime.date(year,month,day)
+b = a.strftime("%A")
+print(b.upper())
