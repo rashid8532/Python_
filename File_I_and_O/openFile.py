@@ -24,5 +24,7 @@
 # f.write("\n I am here so that i can update it ")
 # print(f.readline())
 
-f = open("SamD:\python 2\File_I_and_O\Sample.txr","w+")
-w_pulse = f.write("this will change everything ")
+f = open("D:\python 2\File_I_and_O\Sample.txr","w+")# this w+ can write or read but i also can change everithing
+ff = f.write("this will change everything ")
+data = f.read()
+print(data)
