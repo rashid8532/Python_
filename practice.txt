@@ -1,0 +1,3 @@
+Hi everyone 
+we are learning file I/O/nBy using python 
+and i love python 

@@ -26,3 +26,8 @@ with open("D:\python 2\File_I_and_O\Sample.txr",'w+')as f:
 #     data = f.read()
 #     print(data)
 #     f.close()
+
+
+#  This is to delete something 
+import os
+os.remove("D:\python 2\File_I_and_O\docx.txt")
