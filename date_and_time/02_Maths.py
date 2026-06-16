@@ -13,11 +13,19 @@ print(math.radians(180))
 print(math.degrees(math.pi))
 
 print("hello")
-import math
 
-print(math.lcm(15, 20))
-print(math.comb(6, 3))
-print(math.perm(6, 3))
-print(math.isqrt(50))
-print(math.prod([1, 2, 3, 4]))
-print(math.degrees(math.pi/2))
+print(math.log(8,2))
+
+print(round(4.4))
+print(round(4.6))
+
+# Decimal Places
+print(round(3.14313,2))
+
+
+print(math.floor(5.7))
+
+print(math.trunc(4.9))
+print(math.trunc(-4.9))
+
+print(math.fmod(10,3))#floating point modulas
