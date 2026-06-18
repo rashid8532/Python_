@@ -1,6 +1,18 @@
-arr = [1,2,0,3,0,4,0,5,6]
-for i in arr:
-    if i == 0:
-        arr.remove(i)
-        arr.insert(-1,i) 
-print(arr)
+arr = [1,2,2,1,2]
+# a = []
+# for i in range(len(arr)):
+#     if i % 2 != 0 :
+#         if arr[i] > arr[i-1]:
+#             a.append(arr[i])
+#         elif arr[i] < arr[i-1]:
+#             a.append(arr[i-1])
+#     elif i % 2 == 0:
+#         if arr[i] < arr[i-1]:
+#             a.append(arr[i])
+#         elif arr[i] > arr[i-1]:
+#             a.append(arr[i-1])
+#     else:
+#         a.append(arr[i])
+# print(a)
+
+print(arr.count(2))

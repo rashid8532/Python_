@@ -6,7 +6,6 @@ info = {
 }
 info['age'] = 23
 print(info["age"])
-
 ## Nested dictionry 
 student ={
     "name" : "Rashid",
@@ -39,3 +38,8 @@ print(new_student)
 
 student.setdefault('age',21)##Returns the value if key exists; otherwise inserts the key with a default value.
 print(student)
+
+di = {}
+di["1"] = 1
+di["1"] = 1
+print(di)
