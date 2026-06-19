@@ -41,5 +41,5 @@ print(student)
 
 di = {}
 di["1"] = 1
-di["1"] = 1
+di["1"] = 1+1
 print(di)
