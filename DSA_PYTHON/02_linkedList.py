@@ -148,10 +148,6 @@ class LinkedList:
         
 
             
-
-
-
-
 L = LinkedList()
 # a = Node(1)
 # b= Node(2)
