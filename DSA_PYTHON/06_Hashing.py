@@ -49,3 +49,10 @@ class Dictionary:
                 return "Not Found"
             
             return "Not found"
+    def __str__(self):
+        for i in range(self.slots):
+            if self.slots[i] != None:
+                print(self.slots[i],":",self.data[i],end=" ")
+
+        return " "
+    
